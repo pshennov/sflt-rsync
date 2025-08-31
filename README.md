@@ -7,15 +7,15 @@
 `На проверку направить скриншот с командой и результатом ее выполнения`
 
 ### Решение
-* `Проверяю содержимое директории **/tmp** на отсутствие директории **/backup**`
+* `Проверяю содержимое директории /tmp на отсутствие директории /backup`
 ![Содержимое](images/tmp.png)
 
 * `Команда rsync`
 ```
 rsync -ac --progress --exclude '.*/' ~/ /tmp/backup
 ```
-![Результат](images/zadanie 1-1.png)
-![Результат](images/zadanie 1-2.png)
+![Результат](images/zadanie%201-1.png)
+![Результат](images/zadanie%201-2.png)
 
 * `Сравниваю содержимое домашней директории и директории /tmp/backup`
 ![Домашняя](images/home.png)
@@ -43,6 +43,6 @@ crontab -e
 ![Результат](images/log.png)
 
 * `Проверяю содержимое директории /tmp/backup`
-![Backup](images/zadanie 2.png)
+![Backup](images/zadanie%202.png)
 
 ---
