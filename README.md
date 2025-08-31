@@ -14,8 +14,7 @@
 ```
 rsync -ac --progress --delete --exclude '.*/' ~/ /tmp/backup
 ```
-![Результат](images/zadanie%201-1.png)
-![Результат](images/zadanie%201-2.png)
+![Результат](images/zadanie1.png)
 
 * `Сравниваю содержимое домашней директории и директории /tmp/backup`
 ![Домашняя](images/home.png)
