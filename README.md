@@ -12,7 +12,7 @@
 
 * `Команда rsync`
 ```
-rsync -ac --progress --exclude '.*/' ~/ /tmp/backup
+rsync -ac --progress --delete --exclude '.*/' ~/ /tmp/backup
 ```
 ![Результат](images/zadanie%201-1.png)
 ![Результат](images/zadanie%201-2.png)
